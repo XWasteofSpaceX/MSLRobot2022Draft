@@ -22,7 +22,7 @@ robot = DriveBase(left_motor, right_motor, wheel_diameter=55.5, axle_track=104)
 robot.straight(300)
 ev3.speaker.beep()
 
-robot.turn(50)
+robot.turn(45)
 ev3.speaker.beep()
 
 robot.straight(200)
@@ -32,7 +32,7 @@ ev3.speaker.beep()
 robot.turn(-35)
 ev3.speaker.beep()
 
-robot.straight(490)
+robot.straight(480)
 ev3.speaker.beep()
 
 arm_motor.run_angle(-200,120)
@@ -49,7 +49,7 @@ arm_motor.stop()
 
 ev3.speaker.beep()
 
-robot.straight(-650)
+robot.straight(-700)
 ev3.speaker.beep()
 wait(50)
 ev3.speaker.beep()
@@ -108,4 +108,3 @@ ev3.speaker.beep()
 ev3.speaker.beep()
 ev3.speaker.beep()
 ev3.speaker.beep()
-
